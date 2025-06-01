@@ -63,6 +63,23 @@
             color: white;
         }
         
+        .main-nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .main-nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        
+        .main-nav a:hover {
+            color: var(--primary);
+        }
+        
         .header-actions {
             display: flex;
             gap: 15px;
@@ -400,6 +417,15 @@
                 <div class="logo-icon">C</div>
                 <span>Collabify</span>
             </div>
+            
+            <nav class="main-nav">
+                <a href="landing.html">Home</a>
+                <a href="index.html">Whiteboard</a>
+                <a href="login.html">Login</a>
+                <a href="signup.html">Sign Up</a>
+                <a href="profile.html">Profile</a>
+                <a href="about.html">About</a>
+            </nav>
             
             <div class="header-actions">
                 <button class="btn btn-outline" id="save-btn">Save</button>
