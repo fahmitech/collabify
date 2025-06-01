@@ -43,7 +43,7 @@ Collabify is a browser-based, lightweight digital whiteboard application designe
 ## Getting Started
 
 1. Clone the repository or download the source files
-2. Open `index.html` in your browser
+2. Open `landing.html` in your browser
 3. Start collaborating or create your whiteboard
 
 ## Technical Details
